@@ -3,21 +3,24 @@
 .godot/
 
 # Ignore library files but not the gdextension file
-demo/bin/*
-!demo/bin/android
-demo/bin/android/*
-!demo/bin/android/.gitkeep
-!demo/bin/linux
-demo/bin/linux/*
-!demo/bin/linux/.gitkeep
-!demo/bin/macos
-demo/bin/macos/*
-!demo/bin/macos/.gitkeep
-!demo/bin/windows
-demo/bin/windows/*
-!demo/bin/windows/.gitkeep
-!demo/bin/*.gdextension
+game/bin/*
+!game/bin/android
+game/bin/android/*
+!game/bin/android/.gitkeep
+!game/bin/linux
+game/bin/linux/*
+!game/bin/linux/.gitkeep
+!game/bin/macos
+game/bin/macos/*
+!game/bin/macos/.gitkeep
+!game/bin/windows
+game/bin/windows/*
+!game/bin/windows/.gitkeep
+!game/bin/*.gdextension
 .sconsign*.dblite
+
+# Ignore generated dlls
+bin/*/*.dll
 
 # Ignore custom.py
 custom.py
@@ -56,3 +59,5 @@ compile_commands.json
 
 # Jetbrains
 .idea/
+
+.cache/

@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://lw0jacwtpsyt"]
+
+[ext_resource type="Script" uid="uid://fiol7ymudiea" path="res://main.gd" id="1_ig7tw"]
+
+[node name="Main" type="Node2D"]
+scale = Vector2(-420.129, 3.40364)
+script = ExtResource("1_ig7tw")
